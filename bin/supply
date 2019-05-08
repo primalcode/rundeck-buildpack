@@ -31,7 +31,7 @@ echo "-----> Tar java"
 tar zxf ${BIN_DIR}/jre.zip -C ${BUILD_DIR}/.java --strip-components 1
 
 echo "-----> cp ojdbc"
-mkdir -p /home/vcap/app/server/lib/
+mkdir -p /home/vcap/app/rundeck/server/lib/
 cp /tmp/app/ojdbc8-12.2.0.1.jar /home/vcap/app/rundeck/server/lib/ojdbc8.jar
 
 sleep 2
