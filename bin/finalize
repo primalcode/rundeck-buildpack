@@ -110,6 +110,12 @@ set -e
 # Create start script
 ##################################################################################
 echo "-----> Creating start scripts"
+echo ${BIN_DIR}
+echo ${BUILD_DIR}
+echo "-----> ls"
+ls -la ${BIN_DIR}
+echo "-----> ls"
+ls -la ${BUILD_DIR}
 cp ${BIN_DIR}/../startRundeck.sh ${BUILD_DIR}/startRundeck.sh
 chmod +x ${BUILD_DIR}/startRundeck.sh
 
