@@ -9,7 +9,10 @@ echo "-----> Making java available"
 export PATH=$PATH:${BASE_PATH}/.java/bin
 
 echo "-----> Starting Rundeck"
-
+echo "Rundeck base"
+echo $RDECK_BASE
+echo "Rundeck base"
+ls -la /home/vcap/app/
 ADDITIONAL_ARGS="-Dserver.http.port=${PORT}"
 
 ADDITIONAL_ARGS="${ADDITIONAL_ARGS} -Drundeck.log4j.config.file=$RDECK_BASE/server/config/log4j.properties -Drundeck.jaaslogin=true -Dloginmodule.conf.name=jaas-login.conf -Dloginmodule.name=RDpropertyfilelogin"
