@@ -21,6 +21,7 @@ echo "-----> Downloading java"
 #         ${JRE_URL} -O ${BIN_DIR}/jre.zip
 pwd
 ls -la
+ls -la ./app
 cp jdk-8u211-linux-x64.tar ${BIN_DIR}/jre.zip
 
 echo "-----> Make Directory java"
