@@ -1,4 +1,5 @@
 #!/bin/sh
+echo "-----> START detect"
 
 set -e
 
@@ -11,3 +12,4 @@ if [[ -f ${BUILD_DIR}/server/config/rundeck-config.properties ]]; then
 else
   exit 1
 fi
+echo "-----> END detect"

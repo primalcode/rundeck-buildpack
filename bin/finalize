@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+echo "-----> START finalize"
 set -e
 
 # Absolute path
@@ -121,3 +122,4 @@ chmod +x ${BUILD_DIR}/startRundeck.sh
 
 
 echo "-----> Done :)"
+echo "-----> END finalize"

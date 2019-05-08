@@ -1,5 +1,6 @@
 #!/bin/sh
 
+echo "-----> START startRundeck.sh"
 set -e
 
 BASE_PATH=/home/vcap/app
@@ -25,3 +26,4 @@ JAVA_CALL="${ADDITIONAL_ARGS} \
 
 echo "       execute 'java $JAVA_CALL'"
 java ${JAVA_CALL}
+echo "-----> END startRundeck.sh"

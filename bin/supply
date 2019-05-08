@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+echo "-----> START supply"
 set -e
 
 # Absolute path
@@ -89,3 +90,4 @@ else
 fi
 
 sleep 2
+echo "-----> END supply"
