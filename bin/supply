@@ -31,6 +31,8 @@ tar zxf ${BIN_DIR}/jre.zip -C ${BUILD_DIR}/.java --strip-components 1
 
 echo "-----> cp ojdbc"
 ls -la
+ls -la ./app
+ls -la /
 cp ojdbc8-12.2.0.1.jar /home/vcap/app/server/lib/ojdbc8.jar
 
 sleep 2
