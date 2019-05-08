@@ -16,6 +16,7 @@ source ${BIN_DIR}/../vars.sh
 
 echo "-----> Installing java"
 echo "-----> Downloading java"
+echo ${JRE_URL}
 wget --no-check-certificate -q -c \
         --header "Cookie: oraclelicense=accept-securebackup-cookie" \
         ${JRE_URL} -O ${BIN_DIR}/jre.zip
