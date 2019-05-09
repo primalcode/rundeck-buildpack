@@ -1,5 +1,4 @@
 #!/bin/sh
-echo "-----> START release"
 
 set -e
 
@@ -10,5 +9,3 @@ cat <<EOF
 default_process_types:
   web: /home/vcap/app/startRundeck.sh
 EOF
-
-echo "-----> END release"
